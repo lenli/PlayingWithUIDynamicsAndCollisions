@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87E898D718CA4E7600C6E0CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E898D618CA4E7600C6E0CC /* Foundation.framework */; };
+		87E898D918CA4E7600C6E0CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E898D818CA4E7600C6E0CC /* CoreGraphics.framework */; };
+		87E898DB18CA4E7600C6E0CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E898DA18CA4E7600C6E0CC /* UIKit.framework */; };
+		87E898DD18CA4E7600C6E0CC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E898DC18CA4E7600C6E0CC /* CoreData.framework */; };
+		87E898E318CA4E7600C6E0CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87E898E118CA4E7600C6E0CC /* InfoPlist.strings */; };
+		87E898E518CA4E7600C6E0CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E898E418CA4E7600C6E0CC /* main.m */; };
+		87E898E918CA4E7600C6E0CC /* LCLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E898E818CA4E7600C6E0CC /* LCLAppDelegate.m */; };
+		87E898EC18CA4E7600C6E0CC /* DoubleDare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 87E898EA18CA4E7600C6E0CC /* DoubleDare.xcdatamodeld */; };
+		87E898EE18CA4E7600C6E0CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87E898ED18CA4E7600C6E0CC /* Images.xcassets */; };
+		87E898F518CA4E7600C6E0CC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E898F418CA4E7600C6E0CC /* XCTest.framework */; };
+		87E898F618CA4E7600C6E0CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E898D618CA4E7600C6E0CC /* Foundation.framework */; };
+		87E898F718CA4E7600C6E0CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E898DA18CA4E7600C6E0CC /* UIKit.framework */; };
+		87E898F818CA4E7600C6E0CC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E898DC18CA4E7600C6E0CC /* CoreData.framework */; };
+		87E8990018CA4E7600C6E0CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87E898FE18CA4E7600C6E0CC /* InfoPlist.strings */; };
+		87E8990218CA4E7600C6E0CC /* DoubleDareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E8990118CA4E7600C6E0CC /* DoubleDareTests.m */; };
+		87E8991018CA4EBE00C6E0CC /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87E8990F18CA4EBE00C6E0CC /* iPhone.storyboard */; };
+		87E8991318CA4EEF00C6E0CC /* LCLDaresDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E8991218CA4EEF00C6E0CC /* LCLDaresDataStore.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87E898F918CA4E7600C6E0CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87E898CB18CA4E7600C6E0CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87E898D218CA4E7600C6E0CC;
+			remoteInfo = DoubleDare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87E898D318CA4E7600C6E0CC /* DoubleDare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubleDare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87E898D618CA4E7600C6E0CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		87E898D818CA4E7600C6E0CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		87E898DA18CA4E7600C6E0CC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		87E898DC18CA4E7600C6E0CC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		87E898E018CA4E7600C6E0CC /* DoubleDare-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DoubleDare-Info.plist"; sourceTree = "<group>"; };
+		87E898E218CA4E7600C6E0CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87E898E418CA4E7600C6E0CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87E898E618CA4E7600C6E0CC /* DoubleDare-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DoubleDare-Prefix.pch"; sourceTree = "<group>"; };
+		87E898E718CA4E7600C6E0CC /* LCLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCLAppDelegate.h; sourceTree = "<group>"; };
+		87E898E818CA4E7600C6E0CC /* LCLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCLAppDelegate.m; sourceTree = "<group>"; };
+		87E898EB18CA4E7600C6E0CC /* DoubleDare.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DoubleDare.xcdatamodel; sourceTree = "<group>"; };
+		87E898ED18CA4E7600C6E0CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		87E898F318CA4E7600C6E0CC /* DoubleDareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoubleDareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87E898F418CA4E7600C6E0CC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		87E898FD18CA4E7600C6E0CC /* DoubleDareTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DoubleDareTests-Info.plist"; sourceTree = "<group>"; };
+		87E898FF18CA4E7600C6E0CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87E8990118CA4E7600C6E0CC /* DoubleDareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoubleDareTests.m; sourceTree = "<group>"; };
+		87E8990F18CA4EBE00C6E0CC /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
+		87E8991118CA4EEF00C6E0CC /* LCLDaresDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCLDaresDataStore.h; sourceTree = "<group>"; };
+		87E8991218CA4EEF00C6E0CC /* LCLDaresDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCLDaresDataStore.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87E898D018CA4E7600C6E0CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E898D918CA4E7600C6E0CC /* CoreGraphics.framework in Frameworks */,
+				87E898DD18CA4E7600C6E0CC /* CoreData.framework in Frameworks */,
+				87E898DB18CA4E7600C6E0CC /* UIKit.framework in Frameworks */,
+				87E898D718CA4E7600C6E0CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87E898F018CA4E7600C6E0CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E898F518CA4E7600C6E0CC /* XCTest.framework in Frameworks */,
+				87E898F818CA4E7600C6E0CC /* CoreData.framework in Frameworks */,
+				87E898F718CA4E7600C6E0CC /* UIKit.framework in Frameworks */,
+				87E898F618CA4E7600C6E0CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87E898CA18CA4E7600C6E0CC = {
+			isa = PBXGroup;
+			children = (
+				87E898DE18CA4E7600C6E0CC /* DoubleDare */,
+				87E898FB18CA4E7600C6E0CC /* DoubleDareTests */,
+				87E898D518CA4E7600C6E0CC /* Frameworks */,
+				87E898D418CA4E7600C6E0CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87E898D418CA4E7600C6E0CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87E898D318CA4E7600C6E0CC /* DoubleDare.app */,
+				87E898F318CA4E7600C6E0CC /* DoubleDareTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87E898D518CA4E7600C6E0CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87E898D618CA4E7600C6E0CC /* Foundation.framework */,
+				87E898D818CA4E7600C6E0CC /* CoreGraphics.framework */,
+				87E898DA18CA4E7600C6E0CC /* UIKit.framework */,
+				87E898DC18CA4E7600C6E0CC /* CoreData.framework */,
+				87E898F418CA4E7600C6E0CC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87E898DE18CA4E7600C6E0CC /* DoubleDare */ = {
+			isa = PBXGroup;
+			children = (
+				87E898E718CA4E7600C6E0CC /* LCLAppDelegate.h */,
+				87E898E818CA4E7600C6E0CC /* LCLAppDelegate.m */,
+				87E8991118CA4EEF00C6E0CC /* LCLDaresDataStore.h */,
+				87E8991218CA4EEF00C6E0CC /* LCLDaresDataStore.m */,
+				87E8990F18CA4EBE00C6E0CC /* iPhone.storyboard */,
+				87E898ED18CA4E7600C6E0CC /* Images.xcassets */,
+				87E898EA18CA4E7600C6E0CC /* DoubleDare.xcdatamodeld */,
+				87E898DF18CA4E7600C6E0CC /* Supporting Files */,
+			);
+			path = DoubleDare;
+			sourceTree = "<group>";
+		};
+		87E898DF18CA4E7600C6E0CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87E898E018CA4E7600C6E0CC /* DoubleDare-Info.plist */,
+				87E898E118CA4E7600C6E0CC /* InfoPlist.strings */,
+				87E898E418CA4E7600C6E0CC /* main.m */,
+				87E898E618CA4E7600C6E0CC /* DoubleDare-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87E898FB18CA4E7600C6E0CC /* DoubleDareTests */ = {
+			isa = PBXGroup;
+			children = (
+				87E8990118CA4E7600C6E0CC /* DoubleDareTests.m */,
+				87E898FC18CA4E7600C6E0CC /* Supporting Files */,
+			);
+			path = DoubleDareTests;
+			sourceTree = "<group>";
+		};
+		87E898FC18CA4E7600C6E0CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87E898FD18CA4E7600C6E0CC /* DoubleDareTests-Info.plist */,
+				87E898FE18CA4E7600C6E0CC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87E898D218CA4E7600C6E0CC /* DoubleDare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87E8990518CA4E7600C6E0CC /* Build configuration list for PBXNativeTarget "DoubleDare" */;
+			buildPhases = (
+				87E898CF18CA4E7600C6E0CC /* Sources */,
+				87E898D018CA4E7600C6E0CC /* Frameworks */,
+				87E898D118CA4E7600C6E0CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoubleDare;
+			productName = DoubleDare;
+			productReference = 87E898D318CA4E7600C6E0CC /* DoubleDare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87E898F218CA4E7600C6E0CC /* DoubleDareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87E8990818CA4E7600C6E0CC /* Build configuration list for PBXNativeTarget "DoubleDareTests" */;
+			buildPhases = (
+				87E898EF18CA4E7600C6E0CC /* Sources */,
+				87E898F018CA4E7600C6E0CC /* Frameworks */,
+				87E898F118CA4E7600C6E0CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87E898FA18CA4E7600C6E0CC /* PBXTargetDependency */,
+			);
+			name = DoubleDareTests;
+			productName = DoubleDareTests;
+			productReference = 87E898F318CA4E7600C6E0CC /* DoubleDareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87E898CB18CA4E7600C6E0CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LCL;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Leonard Li";
+				TargetAttributes = {
+					87E898F218CA4E7600C6E0CC = {
+						TestTargetID = 87E898D218CA4E7600C6E0CC;
+					};
+				};
+			};
+			buildConfigurationList = 87E898CE18CA4E7600C6E0CC /* Build configuration list for PBXProject "DoubleDare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 87E898CA18CA4E7600C6E0CC;
+			productRefGroup = 87E898D418CA4E7600C6E0CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87E898D218CA4E7600C6E0CC /* DoubleDare */,
+				87E898F218CA4E7600C6E0CC /* DoubleDareTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87E898D118CA4E7600C6E0CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E898E318CA4E7600C6E0CC /* InfoPlist.strings in Resources */,
+				87E8991018CA4EBE00C6E0CC /* iPhone.storyboard in Resources */,
+				87E898EE18CA4E7600C6E0CC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87E898F118CA4E7600C6E0CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E8990018CA4E7600C6E0CC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87E898CF18CA4E7600C6E0CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E898E918CA4E7600C6E0CC /* LCLAppDelegate.m in Sources */,
+				87E898EC18CA4E7600C6E0CC /* DoubleDare.xcdatamodeld in Sources */,
+				87E898E518CA4E7600C6E0CC /* main.m in Sources */,
+				87E8991318CA4EEF00C6E0CC /* LCLDaresDataStore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87E898EF18CA4E7600C6E0CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E8990218CA4E7600C6E0CC /* DoubleDareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87E898FA18CA4E7600C6E0CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87E898D218CA4E7600C6E0CC /* DoubleDare */;
+			targetProxy = 87E898F918CA4E7600C6E0CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87E898E118CA4E7600C6E0CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87E898E218CA4E7600C6E0CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		87E898FE18CA4E7600C6E0CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87E898FF18CA4E7600C6E0CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87E8990318CA4E7600C6E0CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		87E8990418CA4E7600C6E0CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87E8990618CA4E7600C6E0CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoubleDare/DoubleDare-Prefix.pch";
+				INFOPLIST_FILE = "DoubleDare/DoubleDare-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		87E8990718CA4E7600C6E0CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoubleDare/DoubleDare-Prefix.pch";
+				INFOPLIST_FILE = "DoubleDare/DoubleDare-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		87E8990918CA4E7600C6E0CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DoubleDare.app/DoubleDare";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoubleDare/DoubleDare-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DoubleDareTests/DoubleDareTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		87E8990A18CA4E7600C6E0CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DoubleDare.app/DoubleDare";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoubleDare/DoubleDare-Prefix.pch";
+				INFOPLIST_FILE = "DoubleDareTests/DoubleDareTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87E898CE18CA4E7600C6E0CC /* Build configuration list for PBXProject "DoubleDare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87E8990318CA4E7600C6E0CC /* Debug */,
+				87E8990418CA4E7600C6E0CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87E8990518CA4E7600C6E0CC /* Build configuration list for PBXNativeTarget "DoubleDare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87E8990618CA4E7600C6E0CC /* Debug */,
+				87E8990718CA4E7600C6E0CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		87E8990818CA4E7600C6E0CC /* Build configuration list for PBXNativeTarget "DoubleDareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87E8990918CA4E7600C6E0CC /* Debug */,
+				87E8990A18CA4E7600C6E0CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		87E898EA18CA4E7600C6E0CC /* DoubleDare.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				87E898EB18CA4E7600C6E0CC /* DoubleDare.xcdatamodel */,
+			);
+			currentVersion = 87E898EB18CA4E7600C6E0CC /* DoubleDare.xcdatamodel */;
+			path = DoubleDare.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 87E898CB18CA4E7600C6E0CC /* Project object */;
+}
