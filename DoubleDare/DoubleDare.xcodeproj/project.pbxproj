@@ -24,6 +24,7 @@
 		87E8990218CA4E7600C6E0CC /* DoubleDareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E8990118CA4E7600C6E0CC /* DoubleDareTests.m */; };
 		87E8991018CA4EBE00C6E0CC /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87E8990F18CA4EBE00C6E0CC /* iPhone.storyboard */; };
 		87E8991318CA4EEF00C6E0CC /* LCLDaresDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E8991218CA4EEF00C6E0CC /* LCLDaresDataStore.m */; };
+		87E8991618CA526500C6E0CC /* LCLDiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E8991518CA526500C6E0CC /* LCLDiceViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		87E8990F18CA4EBE00C6E0CC /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
 		87E8991118CA4EEF00C6E0CC /* LCLDaresDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCLDaresDataStore.h; sourceTree = "<group>"; };
 		87E8991218CA4EEF00C6E0CC /* LCLDaresDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCLDaresDataStore.m; sourceTree = "<group>"; };
+		87E8991418CA526500C6E0CC /* LCLDiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCLDiceViewController.h; sourceTree = "<group>"; };
+		87E8991518CA526500C6E0CC /* LCLDiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCLDiceViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 				87E8991118CA4EEF00C6E0CC /* LCLDaresDataStore.h */,
 				87E8991218CA4EEF00C6E0CC /* LCLDaresDataStore.m */,
 				87E8990F18CA4EBE00C6E0CC /* iPhone.storyboard */,
+				87E8991418CA526500C6E0CC /* LCLDiceViewController.h */,
+				87E8991518CA526500C6E0CC /* LCLDiceViewController.m */,
 				87E898ED18CA4E7600C6E0CC /* Images.xcassets */,
 				87E898EA18CA4E7600C6E0CC /* DoubleDare.xcdatamodeld */,
 				87E898DF18CA4E7600C6E0CC /* Supporting Files */,
@@ -260,6 +265,7 @@
 			files = (
 				87E898E918CA4E7600C6E0CC /* LCLAppDelegate.m in Sources */,
 				87E898EC18CA4E7600C6E0CC /* DoubleDare.xcdatamodeld in Sources */,
+				87E8991618CA526500C6E0CC /* LCLDiceViewController.m in Sources */,
 				87E898E518CA4E7600C6E0CC /* main.m in Sources */,
 				87E8991318CA4EEF00C6E0CC /* LCLDaresDataStore.m in Sources */,
 			);

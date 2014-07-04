@@ -1,2 +1,3 @@
 doubledare
 ==========
+Playing with animations

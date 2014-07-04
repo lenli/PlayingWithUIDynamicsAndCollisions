@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
-        <!--View Controller - Double Dare-->
+        <!--Dice View Controller - Double Dare-->
         <scene sceneID="f7N-LE-H0m">
             <objects>
-                <viewController id="pov-iM-ffd" sceneMemberID="viewController">
+                <viewController id="pov-iM-ffd" customClass="LCLDiceViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="SDL-Xp-Sgd"/>
                         <viewControllerLayoutGuide type="bottom" id="FW4-6y-4et"/>
